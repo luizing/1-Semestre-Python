@@ -1,0 +1,6 @@
+print("Quanto tempo o download vai levar?")
+print("*É importante digitar os dois valores na mesma unidade: Mb e Mb/s, Kb e Kb/s etc")
+vel = float(input("Digite a sua velocidade de download:"))
+tam = float(input("Digite o tamanho do arquivo:"))
+temp = float(tam/vel)
+print(temp,"segundos")
