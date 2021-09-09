@@ -1,0 +1,45 @@
+Questão 01 (3,0 pontos). Faça um programa que verifica quantas vezes um dígito aparece em um determinado número de telefone (e.g., celular ou fixo). O algoritmo deverá receber dois números inteiros, o primeiro será o número que deve ser verificado e o segundo será o número do telefone (para facilitar considere que o número do telefone não terá o código do país e área).
+
+Entrada
+
+• Número inteiro X entre 0 e 9.
+
+• Número inteiro positivo Y com 8 dígitos ou 9 dígitos.
+
+Saída
+
+• Quantidade de vezes que o primeiro número (X) aparece no segundo número (Y).
+
+Obs1.: O número do telefone Y (fixo ou celular) não deve iniciar por 0 ou uma sequência de 0s, caso seja, informar ao usuário ‘entrada invalida’. Tratar outros casos inválidos conforme descrição de entrada do problema, nesse caso informar também ‘entrada invalida’.
+
+Obs2.: Não é permitido manipular os dados de entrada como listas e não se deve usar funções de contagem e de pesquisa como o count(), find(), ou outras funções de listas/strings. Caso seja utilizado, a resolução não será corrigida e não será atribuída pontuação.
+
+Obs3. Podem manipular como Strings, por exemplo, a entrada do telefone. O envio máximo permitido desta questão é até 2 vezes.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Questão 2 (3,5 pontos). Um atleta que faz caminhada deseja saber o esforço para subir ou descer um determinado trajeto do seu percurso. Dado que este percurso pode ter aclive e declive, um trajeto pode ser representado por vários pontos de alturas (Hi) e pode ser percorrido em dois sentidos: subindo ou descendo. Faça um programa que receba a quantidade de pontos que um trajeto deverá conter e, em seguida, seu programa deverá receber as alturas que compõem aquele trajeto. Seu programa deverá calcular o menor esforço para que o atleta percorra determinado trajeto.
+
+Obs1: Seu programa deve calcular o esforço apenas quando há subidas e, portanto, não deve levar em conta que há esforço para descidas.
+
+Obs2: O percurso pode ser percorrido em dois sentidos: da esquerda para direita (ponto inicial é a primeira altura do trecho e ponto final é a última altura do trecho) ou o contrário (ponto inicial é a última altura do trecho e o ponto final é a primeira altura do trecho).
+
+Obs3: As entradas deverão ser números inteiros, onde a quantidade de pontos do trajeto deverá ser no mínimo 2 e no máximo 1000. As alturas deverão ser valores maiores que 0. Para as entradas inválidas, a saída deve ser "entrada invalida".
+
+Obs4: Não se manipular as entradas como listas e não usar os seus métodos (Ver critérios de avaliação 8 e 9).
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Questão 3 (3,5 pontos). Escreva um programa que leia um inteiro n >= 2 e uma sequência de n números inteiros e imprime um segmento crescente de dois elementos desta sequência, cuja a soma seja a máxima.
+
+Entrada:
+
+Recebe um números inteiro, onde n >=2 e uma sequência de n números inteiros.
+
+Saída:
+
+A soma e o segmento crescente de dois elementos consecutivos da sequência, cuja soma seja máxima.
+
+Obs1: Caso o algoritmo não encontre o segmento crescente de dois elementos consecutivos da sequência, cuja soma seja máxima, o algoritmo deve informar “sem sequencia crescente” e caso identifique alguma entrada inválida deve informar “entrada invalida”.
+
+Obs2: Não usar as funções máximo ou sum() ou outras funções que tenham o mesmo objetivo (Ver critérios de avaliação 8 e 9).
